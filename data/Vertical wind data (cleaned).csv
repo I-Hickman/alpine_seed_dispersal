@@ -1,0 +1,26 @@
+Species,Replicate,Height range,Tvel,Events above threshold,Total events,perc_threshold_events
+Acaena novae-zelandiae,1,"10,20",1.989578399,0,40,0
+Agrostis venusta A1,2A,"10,20,30",0.90950432,3,60,0.05
+Agrostis venusta A2,2B,"20,30,40",NA,10,60,0.166666667
+Brachyscome spathulata,3,"20,30,40",1.149095088,6,60,0.1
+Carex hebes,4,"10,20,30",2.65692461,0,60,0
+Celmisia costiniana,5,"30,40,50,",1.217285453,6,60,0.1
+Colobanthus affinis,6,"10,20",0.643811363,1,40,0.025
+Craspedia aurantia,7,"10,20,30",0.324030945,12,60,0.2
+Erigeron bellidiodes,8,"10,20",0.643035126,1,40,0.025
+Erigeron nitidus (nitidius),9,"10,20",0.52882073,,40,0
+Argyrotegium fordianum,10,"10,20,30",0.130639973,25,60,0.416666667
+Hypochaeris radicata,11,"20,30,40",0.562074053,13,60,0.216666667
+Luzula novae-cambriae,12,"10,20,30",4.303388919,0,60,0
+Microseris lanceolata,13,"30,40,50",3.21672698,1,60,0.016666667
+Olearia frostii,14,"40,50,60",1.081373344,7,60,0.116666667
+Oreomyrrhis eriopoda,15,"20,30,40",4.210526316,0,60,0
+Plantago euryphylla,16,"10,20",2.594875122,0,40,0
+Poa hiemata,17,"50,60,70",1.174225745,4,60,0.066666667
+Podolepis robusta,18,"30,40,50",1.473296501,2,60,0.033333333
+Ranunculus victoriensis,19,"10,20,30",3.029155623,0,60,0
+Rytidosperma nudiflorum,20,"30,40,50",1.982651797,1,60,0.016666667
+Senecio pinnatifolius,21A,"30,40,50",0.483909993,18,60,0.3
+Trisetum spicatum,22,"30,40,50",1.020278026,7,60,0.116666667
+Viola betonicifolia,23,"10,20",4.177545692,0,40,0
+Xerochrysum subundulatum,24,"10,20,30",0.818665575,4,60,0.066666667

@@ -1,0 +1,25 @@
+﻿Species,Order,Family,GF,DS,Seed mass (mg), Tvelocity m/s
+Acaena novae-zelandiae,Rosales,Rosaceae,forb,animal,0.47,1.989578399
+Agrostis venusta,Poales,Poaceae,graminoid,wind.none,0.14,0.90950432
+Argyrotegium fordianum,Asterales,Compositae,forb,wind.special,0.09,0.130639973
+Brachyscome spathulata,Asterales,Compositae,forb,wind.none,0.24,1.149095088
+Carex hebes,Poales,Cyperaceae,graminoid,wind.none,0.78,2.65692461
+Celmisia pugioniformis,Asterales,Compositae,forb,wind.special,2.74,1.217285453
+Colobanthus affinis,Caryophyllales,Caryophyllaceae,forb,wind.none,0.44,0.643811363
+Craspedia aurantia,Asterales,Compositae,forb,wind.special,0.39,0.324030945
+Erigeron bellidiodes,Asterales,Compositae,forb,wind.special,0.25,0.643035126
+Erigeron nitidus,Asterales,Compositae,forb,wind.special,0.76,0.52882073
+Hypochaeris radicata,Asterales,Compositae,forb,wind.special,0.81,0.562074053
+Luzula novae-cambriae,Poales,Juncaceae,graminoid,wind.none,0.57,4.303388919
+Microseris lanceolata,Asterales,Compositae,forb,wind.special,3.45,3.21672698
+Olearia frostii,Asterales,Compositae,shrub,wind.special,1.14,1.081373344
+Oreomyrrhis eriopoda,Apiales,Apiaceae,forb,wind.none,4.54,4.210526316
+Plantago euryphylla,Lamiales,Plantaginaceae,forb,wind.none,0.34,2.594875122
+Poa hiemata,Poales,Poaceae,graminoid,wind.none,0.35,1.174225745
+Podolepis robusta,Asterales,Compositae,forb,wind.special,0.97,1.473296501
+Ranunculus Victoriensis,Ranunculales,Ranunculaceae,forb,animal,2,3.029155623
+Rytidosperma nudiflorum,Poales,Poaceae,graminoid,wind.none,1.28,1.982651797
+Senecio pinnatifolius,Asterales,Compositae,forb,wind.special,0.29,0.483909993
+Trisetum spicatum,Poales,Poaceae,graminoid,wind.none,0.38,1.020278026
+Viola betonicifolia,Malpighiales,Violaceae,forb,wind.none,1.35,4.177545692
+Xerochrysum subundulatum,Asterales,Compositae,forb,wind.special,0.84,0.818665575
