@@ -1,5 +1,5 @@
 ## Field observations confirm that Australian alpine grassland species have limited long-distance seed dispersal capacity 
-*John W. Morgan, Lauren Szmalko, Iris Hickman, and Susanna E. Venn*
+By *John W. Morgan, Lauren Szmalko, Iris Hickman, and Susanna E. Venn*
 
 ### Summary 
  
