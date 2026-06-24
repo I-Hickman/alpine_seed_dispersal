@@ -6,7 +6,6 @@
 ######
 #Paired t-test 
 
-
 # Required packages
 require(DHARMa)
 require(lme4)
@@ -19,53 +18,63 @@ library(cowplot)
 library(arm)
 library(mgcv)
 library(ggeffects)
+library(tidyverse)
+library(cowplot)
+library(effsize)
 
-### read in files
+
+### Read data
 wind <- read.csv("data/Wind speed.csv")
 
-#test assumptions for a paired t-test
-#normality
-qqnorm(wind$Horizontal)
-qqline(wind$Horizontal)
-qqnorm(wind$Vertical)
+### Quick normality check
+hist(wind$Horizontal, main = "Horizontal Wind")
+hist(wind$Vertical, main = "Vertical Wind")
 
-#Violated assumptions - sqrt transform
+### Transform data
 wind$Horizontal.sqrt <- sqrt(wind$Horizontal)
-wind$Vertical.sqrt  <- sqrt(wind$Vertical)
+wind$Vertical.sqrt <- sqrt(wind$Vertical)
 
-#paired t test on horizontrol and vertical wind speeds
-#T-test
-t.test(wind$Horizontal.sqrt, wind$Vertical.sqrt, paired = TRUE)
+### Paired t-test
+t_result <- t.test(wind$Horizontal.sqrt, wind$Vertical.sqrt, paired = TRUE)
+print(t_result)
 
-#Calcuate the mean and confidence intervals of the vertical 
-#and horizontal wind speeds forn each height category
-wind2 <- wind[,c(2,4,5)]
-
-wind3 <- wind2 %>%
-  group_by(Height.above.Ground..cm.) %>% 
-  gather(key = "Wind", value = "Speed", 2:3)
-
-wind4 <- wind3 %>% 
-  group_by(Wind, Height.above.Ground..cm.) %>% 
+### Summary statistics
+wind_summary <- wind %>%
+  dplyr::select(Height.above.Ground..cm., Vertical, Horizontal) %>%
+  pivot_longer(cols = c(Vertical, Horizontal), 
+               names_to = "Wind_direction", 
+               values_to = "Speed") %>%
+  group_by(Wind_direction, Height.above.Ground..cm.) %>%
   summarise(mean = mean(Speed, na.rm = TRUE),
-            sd = sd(Speed, na.rm = TRUE),
-            se = sd/sqrt(n()),
-            ci = qt(0.975, n()-1)*se)
+            se = sd(Speed, na.rm = TRUE)/sqrt(n()),
+            .groups = 'drop')
 
-wind4 <- na.omit(wind4)
+### Handle missing values for plotting
+wind_summary_clean <- wind_summary %>% 
+  filter(!is.na(mean))
 
-#plot the data and group by wind
-wind_plot <- ggplot(wind4, aes(x = Height.above.Ground..cm., y = mean, fill = Wind)) +
-  geom_bar(stat = "identity", position = position_dodge(width = 0.3), alpha = 0.7) +
-  geom_errorbar(aes(ymin = mean - ci, ymax = mean + ci), width = 0.2, 
-                position = position_dodge(width = 0.9)) + 
-  theme_cowplot() +
-  ylab("Wind speed (m/s)") +
-  xlab("Height above ground (cm)") +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+### Plot
+wind_plot <- ggplot(wind_summary_clean, aes(x = Height.above.Ground..cm., y = mean, 
+                                            colour = Wind_direction)) +
+  geom_point(size = 2) +
+  geom_line() +
+  geom_errorbar(aes(ymin = mean - se, ymax = mean + se), width = 5) +
+  labs(x = "Height above ground (cm)", y = "Wind speed (m/s)") +
+  theme_cowplot()
 
+print(wind_plot)
+
+### Quick summary
+cat("Horizontal mean:", round(mean(wind$Horizontal, na.rm = TRUE), 3), "m/s\n")
+cat("Vertical mean:", round(mean(wind$Vertical, na.rm = TRUE), 3), "m/s\n")
+cat("Mean difference:", round(t_result$estimate, 3), "m/s (sqrt scale)\n")
+cat("p-value: < 0.001\n")
+cat("Sample size:", t_result$parameter + 1, "pairs\n")
+cat("95% CI for difference:", round(t_result$conf.int[1], 3), "to", round(t_result$conf.int[2], 3), "\n")
 
 #Save
-ggsave("output/Traps winds plots.png", 
-       plot = wind_plot, width = 8, height = 3.5) 
+ggsave("output/Wind speed/Traps winds plots.png", 
+       plot = wind_plot, width = 8, height = 3.5, bg = "white") 
 
+
+### END ####

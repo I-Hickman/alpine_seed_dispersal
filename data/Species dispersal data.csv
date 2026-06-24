@@ -1,0 +1,25 @@
+﻿Species,Family,Dispersal syndrome,Diaspore mass (mg),Release height (m),Terminal velocity ,Mean predicted dispersal (m),Mean observed dispersal (m)
+Acaena novae-zelandiae,Rosaceae,Animal,1.41,0.1,1.99,354.53,NA
+Agrostis venusta,Poaceae,Wind,0.14,0.25,0.91,7.14,3
+Agrotygium fordianus,Asteraceae,Wind,0.04,0.15,0.131,20.71,9.14
+Brachyscome spathulata,Asteraceae,Wind,0.24,0.3,1.149,3.01,NA
+Carex hebes,Cyperaceae,Gravity,0.78,0.2,2.657,3.25,5
+Celmisia pugioniformis,Asteraceae,Wind,2.74,0.4,1.217,1.31,0.92
+Colobanthus affinis,Caryophyllaceae,None,0.06,0.08,0.644,1.71,0.5
+Craspedia aurantia,Asteraceae,Wind,0.39,0.2,0.324,12.75,1.86
+Hypochaoeris radicata,Asteraceae,Wind,0.81,0.3,0.562,18.78,0.5
+Luzula novae-cambriae,Cypercaeae,Gravity,0.57,0.2,4.303,0.2,NA
+Microseris lanceolata,Asteraceae,Wind,3.45,0.4,3.217,0.96,NA
+Olearia frostii,Asteraceae,Wind,1.14,0.5,1.081,27.33,3
+Oreomyhris eriopoda,Apiaceae,Gravity,4.54,0.3,4.211,0.35,NA
+Pappachroma bellidoides,Asteraceae,Wind,0.25,0.1,0.643,38.43,1.12
+Pappachroma nitidus,Asteraceae,Wind,0.76,0.1,0.529,12.78,NA
+Plantago euryphylla,Plantaginaceae,Gravity,0.34,0.08,2.595,0.88,1.33
+Poa hiemata,Poaceae,Wind,0.27,0.6,1.174,3.29,1
+Podolepis laciniata,Asteraceae,Wind,0.97,0.4,1.473,4.86,NA
+Ranunculus victorensis,Ranunculaceae,Animal,2,0.15,3.029,244.5,NA
+Rytidosperma nudiflorum,Poaceae,Wind,1.28,0.4,1.983,2.04,1.06
+Senecio pinnatifolius,Asteraceae,Wind,0.29,0.45,0.484,20.18,3
+Trisetum spicatum,Poaceae,Wind,0.38,0.4,1.02,5.94,7.5
+Viola betonicifolia,Violaceae,Gravity,1.17,0.1,4.178,0.29,3.67
+Xerochrysum subundulatum,Asteraceae,Wind,0.84,0.2,0.819,8.67,NA

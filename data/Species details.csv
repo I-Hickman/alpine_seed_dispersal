@@ -1,26 +1,34 @@
 ﻿Species,Order,Family,GF,DS
-Acaena novae-zelandiae,Rosales,Rosaceae,herb,Animal
-Agrostis venusta A1,Poales,Poaceae,herb,Wind
-Agrostis venusta A2,Poales,Poaceae,herb,Wind
-Brachyscome spathulata,Asterales,Compositae,herb,Wind
-Carex hebes,Poales,Cyperaceae,herb,Gravity
-Celmisia costiniana,Asterales,Compositae,herb,Wind
-Colobanthus affinis,Caryophyllales,Caryophyllaceae,herb,Wind
-Craspedia aurantia,Asterales,Compositae,herb,Wind
-Erigeron bellidiodes,Asterales,Compositae,herb,Wind
-Erigeron nitidus (nitidius),Asterales,Compositae,herb,Wind
-Argyrotegium fordianum,Asterales,Compositae,herb,Wind
-Hypochaeris radicata,Asterales,Compositae,herb,Wind
-Luzula novae-cambriae,Poales,Juncaceae,herb,Gravity
-Microseris lanceolata,Asterales,Compositae,herb,Wind
+Acaena novae-zelandiae,Rosales,Rosaceae,forb,Animal
+Agrostis venusta,Poales,Poaceae,grass,Wind
+Argyrotegium fordianum,Asterales,Compositae,forb,Wind
+Brachyscome spathulata,Asterales,Compositae,forb,Wind
+Carex hebes,Poales,Cyperaceae,sedge,Gravity
+Celmisia costiniana,Asterales,Compositae,forb,Wind
+Cirsium vulgare,Asterales,Compositae,forb,Wind
+Colobanthus affinis,Caryophyllales,Caryophyllaceae,forb,Wind
+Craspedia aurantia,Asterales,Compositae,forb,Wind
+Erigeron nitidus,Asterales,Compositae,forb,Wind
+Hovea montana,Fabaceae,Fabaceae,shrub,Gravity
+Hypochaeris radicata,Asterales,Compositae,forb,Wind
+Leptorhynchos squamatus,Asterales,Compositae,forb,Wind
+Luzula novae-cambriae,Poales,Juncaceae,rush,Gravity
+Microseris lanceolata,Asterales,Compositae,forb,Wind
+Olearia brevipedunculata,Asterales,Compositae,shrub,Wind
 Olearia frostii,Asterales,Compositae,shrub,Wind
-Oreomyrrhis eriopoda,Apiales,Apiaceae,herb,Gravity
-Plantago euryphylla,Lamiales,Plantaginaceae,herb,Gravity
-Poa hiemata,Poales,Poaceae,herb,Wind
-Podolepis robusta,Asterales,Compositae,herb,Wind
-Ranunculus victoriensis,Ranunculales,Ranunculaceae,herb,Animal
-Rytidosperma nudiflorum,Poales,Poaceae,herb,Wind
-Senecio pinnatifolius,Asterales,Compositae,herb,Wind
-Trisetum spicatum,Poales,Poaceae,herb,Wind
-Viola betonicifolia,Malpighiales,Violaceae,herb,Gravity
-Xerochrysum subundulatum,Asterales,Compositae,herb,Wind
+Oreomyrrhis eriopoda,Apiales,Apiaceae,forb,Gravity
+Pappochroma bellidioides,Asterales,Compositae,forb,Wind
+Plantago euryphylla,Lamiales,Plantaginaceae,forb,Gravity
+Poa hiemata,Poales,Poaceae,grass,Wind
+Poa hothamensis,Poales,Poaceae,grass,Wind
+Podolepis robusta,Asterales,Compositae,forb,Wind
+Ranunculus victoriensis,Ranunculales,Ranunculaceae,forb,Animal
+Rytidosperma nudiflorum,Poales,Poaceae,grass,Wind
+Scleranthus biflorus,Caryophyllales,Caryophyllaceae,forb,Gravity
+Senecio pinnatifolius,Asterales,Compositae,forb,Wind
+Trisetum spicatum,Poales,Poaceae,grass,Wind
+Unknown GRASS SEED,Poales,Poaceae,grass,Wind
+Viola betonicifolia,Malpighiales,Violaceae,forb,Gravity
+Xerochrysum subundulatum,Asterales,Compositae,forb,Wind
+UNKNOWN pea seed,Fabaceae,Fabaceae,shrub,Gravity
+Prasophyllum sp.,Asparagales,Orchidaceae,forb,Wind
