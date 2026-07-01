@@ -54,15 +54,14 @@ All data files are in `data/`.
 
 | File | Description |
 |------|-------------|
-| `Traps and species caught2.csv` | Diaspore counts per trap, with trap position (top/bottom), trap number, year and species. This is the corrected dataset used in the analysis. |
-| `Traps and species caught.csv` | Earlier version of the trap capture data, retained for reference only. |
+| `Traps and species caught2.csv` | Diaspore counts per trap, with trap position (top/bottom), trap number, year and species. |
 | `Species details.csv` | Species-level traits, including terminal velocity (`Tvel`), dispersal syndrome (`DS`), growth form (`GF`) and family. |
 | `Seed mass data.csv` | Diaspore mass (mg) and mean terminal velocity (m/s) per species. |
 | `Vertical wind data (cleaned).csv` | Per-species counts of vertical wind events, events exceeding the terminal velocity threshold, and the proportion above threshold. |
 | `Wind speed.csv` | Horizontal and vertical wind speed measurements by height above ground. |
 | `Minimum distance dispersed.csv` | Minimum observed dispersal distance per species. |
 | `Average distance dispersed.csv` | Mean observed dispersal distance per species. |
-| `Species dispersal data.csv` | Modelled (predicted) dispersal distances and release heights per species. |
+| `Species dispersal data.csv` | Dispersal distances and release heights per species. |
 | `Floristics_PA_long.csv` | Presence/absence floristics records in long format. |
 
 A note on the trap data: duplicated records in the 2018 trap data had inflated diaspore counts. `Traps and species caught2.csv` is the corrected version and is the file loaded by the analysis scripts. `Traps and species caught.csv` is kept only for provenance.
